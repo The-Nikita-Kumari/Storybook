@@ -1,7 +1,7 @@
 # Testing Suite — Component Library
 
-**Week 11:** Unit & Component Testing — Jest + React Testing Library
-**Week 12:** Component-Driven Development — Storybook Design System
+- **Week 11:** Unit & Component Testing — Jest + React Testing Library
+- **Week 12:** Component-Driven Development — Storybook Design System
 
 ---
 
