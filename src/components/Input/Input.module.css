@@ -1,0 +1,12 @@
+.wrapper { display: flex; flex-direction: column; gap: 0.35rem; }
+.fullWidth { width: 100%; }
+.label { font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text); }
+.required { color: var(--color-danger); }
+.input { font-family: var(--font-mono); font-size: 0.9rem; padding: 0.6rem 0.9rem; border: 2px solid var(--color-border); background: var(--color-bg); color: var(--color-text); outline: none; transition: border-color 0.15s, box-shadow 0.15s; width: 100%; box-sizing: border-box; }
+.input::placeholder { color: var(--color-text-muted); opacity: 0.6; }
+.input:focus { border-color: var(--color-accent); box-shadow: 3px 3px 0 var(--color-border); }
+.input:disabled { opacity: 0.45; cursor: not-allowed; background: var(--color-surface); }
+.inputError { border-color: var(--color-danger) !important; }
+.inputError:focus { box-shadow: 3px 3px 0 var(--color-danger); }
+.errorMsg { font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-danger); font-weight: 600; }
+.helperText { font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-text-muted); }

@@ -1,0 +1,48 @@
+{/* Introduction.mdx */}
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Design System/Introduction" />
+
+# Testing Suite — Design System
+
+- **Week 11:** Unit & Component Testing — Jest + React Testing Library
+- **Week 12:** Component-Driven Development — Storybook
+
+---
+
+## Components
+
+<table>
+  <thead>
+    <tr><th>Component</th><th>Stories</th><th>Tests</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Button</td><td>8</td><td>11</td></tr>
+    <tr><td>Input</td><td>6</td><td>11</td></tr>
+    <tr><td>Card</td><td>8</td><td>10</td></tr>
+    <tr><td>Counter</td><td>5</td><td>13</td></tr>
+    <tr><td>LoginForm</td><td>2</td><td>16</td></tr>
+  </tbody>
+</table>
+
+**Total: 61 unit tests · 29 stories**
+
+---
+
+## Using Storybook
+
+- Browse components in the **sidebar**
+- Toggle props live in the **Controls** panel
+- Switch between Light/Dark  modes from the **toolbar**
+- View prop docs on the **Docs** tab of each story
+
+---
+
+## Commands
+
+```bash
+npm run storybook        # → http://localhost:6006
+npm run dev              # → http://localhost:3000
+npm test                 # → 61 tests, all passing
+npm run build-storybook  # → storybook-static/ for deployment
+```

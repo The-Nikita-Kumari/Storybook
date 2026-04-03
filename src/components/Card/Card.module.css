@@ -1,0 +1,12 @@
+.card { background: var(--color-surface); border: 2px solid var(--color-border); padding: 1.5rem; position: relative; box-shadow: var(--shadow-hard); font-family: var(--font-mono); text-align: left; width: 100%; transition: transform 0.15s, box-shadow 0.15s; }
+.hoverable:hover, .clickable:hover { transform: translate(-2px,-2px); box-shadow: var(--shadow-hard-lg); }
+.clickable { cursor: pointer; background: var(--color-surface); transition: all 0.15s; }
+.badge { font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.2rem 0.6rem; margin-bottom: 0.75rem; display: inline-block; }
+.badge_default { background: var(--color-text);    color: var(--color-accent); }
+.badge_success  { background: var(--color-success); color: #fff; }
+.badge_warning  { background: var(--color-accent);  color: var(--color-accent-fg); }
+.badge_danger   { background: var(--color-danger);  color: #fff; }
+.title { font-size: 1.1rem; font-weight: 700; color: var(--color-text); margin: 0 0 0.5rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.description { font-size: 0.875rem; color: var(--color-text-muted); margin: 0 0 1rem; line-height: 1.5; }
+.body { margin-bottom: 1rem; }
+.footer { border-top: 1px solid var(--color-border); padding-top: 0.75rem; margin-top: 0.5rem; font-size: 0.8rem; color: var(--color-text-muted); opacity: 0.7; }
